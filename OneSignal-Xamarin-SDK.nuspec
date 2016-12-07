@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>OneSignal-Xamarin-SDK</id>
+        <version>1.0.1</version>
+        <title>Xamarin SDK for OneSignal</title>
+        <authors>OneSignal</authors>
+        <owners>OneSignal</owners>
+        <licenseUrl>https://github.com/OneSignal/OneSignal-Xamarin-SDK/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/OneSignal/OneSignal-Xamarin-SDK</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>OneSignal is a free push notification service for mobile apps. This plugin makes it easy to integrate your Xamarin app with OneSignal. https://onesignal.com</description>
+        <summary>Xamarin SDK for OneSignal</summary>
+        <releaseNotes>https://github.com/OneSignal/OneSignal-Xamarin-SDK/commits</releaseNotes>
+        <tags>onesignal push notification ios android uwp xamarin forms monotouch monodroid</tags>
+        <dependencies>
+			<group>
+				<!--<dependency id="Xamarin.Forms" version="2.3.2.127"/>-->
+			</group>
+		</dependencies>
+    </metadata>
+    <files>
+        <!-- Xamarin.iOS -->
+        <file src="OneSignal.iOS.Binding/OneSignal.iOS.Binding/bin/Release/OneSignal.iOS.Binding.dll" target="lib/Xamarin.iOS10/OneSignal.iOS.Binding.dll" />
+
+        <!-- Xamarin.Android -->
+        <file src="OneSignal.Android.Binding/OneSignal.Android.Binding/bin/Release/OneSignal.Android.Binding.dll" target="lib/MonoAndroid/OneSignal.Android.Binding.dll" />
+    </files>
+</package>
