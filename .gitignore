@@ -1,10 +1,9 @@
 # Build files
-Bin/
+Bin/debug
 obj/
 
-# Exceptions
-!*.dll
-!*/
+*.mdb
+*.stamp
 
 # NuGet Packages
 *.nupkg
