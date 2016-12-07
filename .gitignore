@@ -1,6 +1,3 @@
-# Build files
-obj/
-
 *.mdb
 *.stamp
 
