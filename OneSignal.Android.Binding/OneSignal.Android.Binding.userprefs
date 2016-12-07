@@ -1,9 +1,0 @@
-﻿<Properties StartupConfiguration="{9144F592-91B9-4ACA-BC3C-D771F8319996}|Default">
-  <MonoDevelop.Ide.Workbench />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.OneSignal.Android.Binding PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-</Properties>
