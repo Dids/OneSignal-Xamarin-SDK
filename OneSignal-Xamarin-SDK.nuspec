@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>OneSignal-Xamarin-SDK</id>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <title>Xamarin SDK for OneSignal</title>
         <authors>OneSignal</authors>
         <owners>OneSignal</owners>
@@ -22,8 +22,10 @@
     <files>
         <!-- Xamarin.iOS -->
         <file src="OneSignal.iOS.Binding/OneSignal.iOS.Binding/bin/Release/OneSignal.iOS.Binding.dll" target="lib/Xamarin.iOS10/OneSignal.iOS.Binding.dll" />
+        <file src="SDK/Common/Com.OneSignal/Com.OneSignal.DLL/bin/Release/Com.OneSignal.DLL.dll" target="lib/Xamarin.iOS10/OneSignal.Common.dll" />
 
         <!-- Xamarin.Android -->
         <file src="OneSignal.Android.Binding/OneSignal.Android.Binding/bin/Release/OneSignal.Android.Binding.dll" target="lib/MonoAndroid/OneSignal.Android.Binding.dll" />
+        <file src="SDK/Common/Com.OneSignal/Com.OneSignal.DLL/bin/Release/Com.OneSignal.DLL.dll" target="lib/MonoAndroid/OneSignal.Common.dll" />
     </files>
 </package>
