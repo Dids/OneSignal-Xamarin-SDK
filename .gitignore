@@ -1,5 +1,4 @@
 # Build files
-Bin/debug
 obj/
 
 *.mdb
