@@ -1,5 +1,9 @@
+# Build files
 Bin/
 obj/
+
+# Exceptions
+!*.dll
 
 # NuGet Packages
 *.nupkg
