@@ -4,6 +4,7 @@ obj/
 
 # Exceptions
 !*.dll
+!*/
 
 # NuGet Packages
 *.nupkg
